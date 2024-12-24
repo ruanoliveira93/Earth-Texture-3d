@@ -1,8 +1,7 @@
-# React + Vite
+# Earth Texture 3D With Three.js
+Created project with the libary React.js, Vite.js, Three.js.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Interact With 3D Model
+<p>1 - To change the angule of the planet press the left mouse's button and move it.</p>
+<p>2 - To change the position of the planet about the screen press the right mouse's button and move it.</p>
+<p>3 - To given zoom use the scroll mouse's button.</p>
