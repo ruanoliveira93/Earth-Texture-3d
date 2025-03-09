@@ -1,5 +1,5 @@
 # Earth Texture 3D With Three.js
-Created project with the libary React.js, Vite.js, Three.js.
+Created project with the library React.js, Vite.js, Three.js.
 
 ## Interact With 3D Model
 <p>1 - To change the angule of the planet press the left mouse's button and move it.</p>
