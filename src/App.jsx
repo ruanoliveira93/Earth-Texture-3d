@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Sphere, Stars, useTexture } from '@react-three/drei';
 import { useRef } from 'react'
@@ -7,8 +6,8 @@ import './App.css'
 function AnimateRotate() {
   const earthRef = useRef();
   const [earthMap, cloudMap] = useTexture([
-    '/public/textures/earth_texture.jpg',
-    '/public/textures/cloud_texture.jpg'
+    '/textures/earth_texture.jpg',
+    '/textures/cloud_texture.jpg'
   ])
 
   useFrame(() => {
@@ -18,11 +17,11 @@ function AnimateRotate() {
   return (
     <mesh ref={earthRef}>
       <Sphere args={[1, 64, 64]}>
-        <meshPhongMaterial map={earthMap} />
+        <meshStandardMaterial map={earthMap} />
       </Sphere>
 
       <Sphere args={[1.01, 64, 64]}>
-        <meshPhongMaterial map={cloudMap} transparent opacity={0.4} />
+        <meshStandardMaterial map={cloudMap} transparent opacity={0.4} />
       </Sphere>
     </mesh>
   )
